@@ -6,7 +6,7 @@
 function Header() {
   return (
     <header className="header">
-      <div className="header-container">
+      <div className="hero-box">
         <div className="welcome-message">
           <h2>Welcome to Our Amazing Store!</h2>
           <p>Discover incredible products at unbeatable prices</p>

@@ -7,7 +7,7 @@
 function Footer() {
 return (
 <footer className="footer">
-  <div className="footer-container">
+  <div className="hero-box">
    <div className="footer-content">
     <div className="footer-section">
      <h3>My Online Store</h3>

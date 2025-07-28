@@ -22,6 +22,45 @@ a:hover {
   color: #535bf2;
 }
 
+.hero-box {
+  background-image: url('images/box-bg.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #00bfff; /* light blue border */
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+
+
+.hero-box {
+  position: relative;
+  background: none;
+  overflow: hidden;
+}
+
+.hero-box::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('https://wallpapers.com/images/hd/subtle-background-jcjvx51agmnhps2d.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* make the image partially transparent */
+  z-index: 0;
+}
+
+.hero-box * {
+  position: relative;
+  z-index: 1;
+}
+
 body {
   margin: 0;
   display: flex;

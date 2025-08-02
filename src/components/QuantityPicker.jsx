@@ -2,13 +2,11 @@
 import { useState } from "react";
 
 // logic
-function QuantityPicker()
-{
-const [quantity,setQuantity]=useState (1);
+function QuantityPicker() {
+    const [quantity, setQuantity] = useState(1);
 
 
-    function decrease()
-    {
+    function decrease() {
         console.log("decreasing");
         let val = quantity - 1;
         // if (quantity === 1) return;
@@ -18,14 +16,13 @@ const [quantity,setQuantity]=useState (1);
         setQuantity(val);
     }
 
-    function increase()
-    {
+    function increase() {
         let val = quantity + 1;
         setQuantity(val)
     }
 
 
-    return(
+    return (
 
         <div className="qt-picker" >
             <button onClick={decrease} disabled={quantity === 1}> - </button>

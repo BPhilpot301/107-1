@@ -1,22 +1,21 @@
 import QuantityPicker from "./QuantityPicker";
 
-function Product({ data }) {
-    const formatPrice = (price) => {
-        return price.toFixed(2);
-    };
+function Product({parent}){
 
-    return (
+       return (
         <div className="col-md-4 mb-4">
             <div className="card h-100">
-                <img
-                    src={data.image}>
-                </img>
-
+                <img src={parent.image}
+                />
+                <div>{parent.title}</div>
             </div>
-            <QuantityPicker />
+            <QuantityPicker/>
         </div>
-    )
+       ) 
 
-}
+} 
 
+
+// change the variable name that you are using to pass the data, update the titles in to the DataService 
+// and show the price of each product but this time with the new variable name.
 export default Product

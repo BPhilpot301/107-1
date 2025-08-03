@@ -3,35 +3,35 @@ const products = [
     _id: 1, //the id most be UNIQUE
     title: "Headphone",
     price: 60.0,
-    image: "headphones.webp",
+    image: "headphones.jpg",
     category: "Electronics",
   },
   {
     _id: 2, //the id most be UNIQUE
     title: "Mouse",
     price: 60.0,
-    image: "mouse.webp",
+    image: "mouse.jpg",
     category: "Electronics",
   },
   {
     _id: 3, //the id most be UNIQUE
     title: "Keyboard",
     price: 60.0,
-    image: "Keyboard.webp",
+    image: "keyboard.jpg",
     category: "Electronics",
   },
   {
     _id: 4, //the id most be UNIQUE
     title: "Camera",
     price: 60.0,
-    image: "https://picsum.photos/300/200?random=4",
+    image: "camera.jpg",
     category: "Electronics",
   },
   {
     _id: 5, //the id most be UNIQUE
     title: "Mic",
     price: 60.0,
-    image: "https://picsum.photos/300/200?random=5",
+    image: "mic.jpg",
     category: "Electronics",
   },
 ];

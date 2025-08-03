@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #f7f5f5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,7 +26,7 @@ a:hover {
   background-image: url('images/box-bg.jpg'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
-  border: 2px solid #00bfff; /* light blue border */
+  border: 2px solid #f2f5f7; /* white border */
   border-radius: 16px;
   padding: 2rem;
   margin: 2rem auto;
@@ -52,7 +52,7 @@ a:hover {
   background-image: url('https://wallpapers.com/images/hd/subtle-background-jcjvx51agmnhps2d.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.5; /* make the image partially transparent */
+  opacity: 1; /* make the image partially transparent */
   z-index: 0;
 }
 
@@ -98,6 +98,12 @@ button:hover {
   transform: translateY(-2px);
 }
 
+.product-image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
 
 button:focus,
 button:focus-visible {
@@ -119,6 +125,8 @@ button.search-btn{
   color: white;
 }
 
+
+
 footer {
   color: none;
   text-decoration: none;
@@ -126,7 +134,7 @@ footer {
 }
 
 footer a{
-  color: #999;
+  color: #fcf9f9;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -137,7 +145,7 @@ footer a:hover{
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #eff1f3;
     background-color: #ffffff;
   }
   a:hover {
